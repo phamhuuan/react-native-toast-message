@@ -334,7 +334,7 @@ class Toast extends Component {
           'hide',
           'show',
           'onPress',
-					...this.props.acceptedKey,
+					...(this.props.acceptedKey ? this.props.acceptedKey : []),
         ]
       }),
       props: { ...customProps },

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ViewStyle, TextStyle, ImageSourcePropType } from 'react-native'
 
-declare module 'react-native-toast-message' {
+declare module '@phamhuuan/react-native-toast-message' {
   interface AnyObject {
     [key: string]: any;
   }
